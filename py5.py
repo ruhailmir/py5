@@ -55,7 +55,9 @@ class PyImage:
             self.height = self.image.height
         
         self.conf = {
-            'font': '/home/ruhailmir/.fonts/f/FiraCode-SemiBold.ttf',
+            # path to font or font-name
+            # 'font': '/home/username/.fonts/f/FiraCode-SemiBold.ttf',
+            'font': 'Consolas',
             'stroke': 'red',
             'font_size': 50,
             'fill': 'white',
